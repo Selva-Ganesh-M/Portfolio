@@ -57,11 +57,14 @@ const Data = () => {
         </svg>
       </h1>
 
+      {/* desc */}
       <h3 className="home__subtitle">Full Stack Developer</h3>
       <p className="home__description">
         I'm professional based in TamilNadu, and I'm very passionate and
         dedicated to my work.
       </p>
+
+      {/* contanct btn */}
       <a href="#contact" className="button button--flex">
         Say Hello
         <svg
