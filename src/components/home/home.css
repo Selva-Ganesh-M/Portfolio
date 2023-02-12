@@ -158,6 +158,8 @@
     padding-top: 3.5rem;
     /* sd */
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .home__img {
@@ -189,5 +191,9 @@
   .home__hand {
     width: 22px;
     height: 22px;
+  }
+  .home__content {
+    width: 100%;
+    margin: none;
   }
 }
