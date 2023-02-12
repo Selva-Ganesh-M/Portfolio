@@ -52,7 +52,11 @@ const Contact = () => {
 
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
-          <form action="" className="contact__form">
+          <form
+            action="https://formsubmit.co/selvadev2k@gmail.com"
+            method="POST"
+            className="contact__form"
+          >
             {/* item */}
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
@@ -86,7 +90,7 @@ const Contact = () => {
             </div>
 
             {/* contanct btn */}
-            <button href="#contact" className="button button--flex">
+            <button type="submit" className="button button--flex">
               Send Message
               <svg
                 className="button__icon"
