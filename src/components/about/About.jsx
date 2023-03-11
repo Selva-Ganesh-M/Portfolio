@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/about.jpg";
+import AboutImg from "../../assets/SelvaImg.jpg";
 import CV from "../../assets/John-Cv.pdf";
 import Info from "./Info";
 
@@ -19,9 +19,8 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            MERN Full Stack Developer, I create web pages with UI / UX, apis and
-            servers. I have years of experience and many clients are happy with
-            the projects carried out.
+            MERN Full Stack Developer, I create web pages with UI / UX, apis interactions,
+            servers and databases.
           </p>
 
           <a href={CV} download="" className="button button--flex">

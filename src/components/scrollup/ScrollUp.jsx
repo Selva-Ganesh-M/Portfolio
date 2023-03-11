@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-scroll"
 import "./scrollup.css";
 
 const ScrollUp = () => {
@@ -17,9 +18,13 @@ const ScrollUp = () => {
 
   // actual jsx rendering
   return (
-    <a href="#" className="scrollup">
+    <Link
+      to="home"
+      smooth={true}
+      duration={800}
+      className="scrollup">
       <i className="uil uil-arrow-up scrollup__icon"></i>
-    </a>
+    </Link>
   );
 };
 

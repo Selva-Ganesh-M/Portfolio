@@ -1,40 +1,48 @@
 import Work1 from "../../assets/work1.jpg"
 import Work2 from "../../assets/work1.jpg"
 import Work3 from "../../assets/work1.jpg"
-import Work4 from "../../assets/work1.jpg"
-import Work5 from "../../assets/work1.jpg"
+import GOST_Blog from "../../assets/ProjectImages/GOST_Blog.png"
+import Evogym from "../../assets/ProjectImages/Evogym.png"
+import Fiver from "../../assets/ProjectImages/Fiver.png"
 
 export const projectsData = [
     {
         id: 1,
-        image: Work1,
-        title: "Web design",
-        category: "web",
+        image: GOST_Blog,
+        title: "GOST Blog",
+        category: "MERN",
+        link: 'https://gostblog.netlify.app/',
+        clientLink: "https://github.com/Selva-Ganesh-M/Blog_Client",
+        serverLink: "https://github.com/Selva-Ganesh-M/Blog_Server"
     },
     {
         id: 2,
-        image: Work2,
-        title: "App movil",
-        category: "app",
+        image: Evogym,
+        title: "Evo Gym",
+        category: "static",
+        link: "https://evogymts.netlify.app/",
+        clientLink: "https://github.com/Selva-Ganesh-M/Re_TS_Fr_Tw_Gym_App"
     },
     {
         id: 3,
-        image: Work3,
-        title: "Brand design",
-        category: "design",
+        image: Fiver,
+        title: "Fiverr",
+        category: "static",
+        link: "https://fiverapp.netlify.app/",
+        clientLink: "https://github.com/Selva-Ganesh-M/fiverr_client"
     },
-    {
-        id: 4,
-        image: Work4,
-        title: "App movil",
-        category: "app",
-    },
-    {
-        id: 5,
-        image: Work5,
-        title: "Web design",
-        category: "web",
-    },
+    // {
+    //     id: 4,
+    //     image: Work2,
+    //     title: "App movil",
+    //     category: "app",
+    // },
+    // {
+    //     id: 5,
+    //     image: Work3,
+    //     title: "Brand design",
+    //     category: "design",
+    // },
 ];
 
 export const projectsNav = [
@@ -42,12 +50,12 @@ export const projectsNav = [
         name: "all"
     },
     {
-        name: "web"
+        name: "MERN"
     },
     {
-        name: "app"
+        name: "static"
     },
     {
-        name: "design"
+        name: "dev"
     },
 ]

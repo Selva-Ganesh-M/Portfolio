@@ -19,11 +19,6 @@ const Footer = () => {
               Projects
             </a>
           </li>
-          <li>
-            <a href="#testimonials" className="footer__link">
-              Testimonials
-            </a>
-          </li>
         </ul>
 
         {/* socials */}

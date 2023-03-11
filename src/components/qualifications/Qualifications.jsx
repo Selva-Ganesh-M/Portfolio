@@ -9,7 +9,7 @@ const Qualifications = () => {
       <span className="section__subtitle">My Personal Journey</span>
 
       <div className="qualification__container container">
-        {/* tabs */}
+        {/* tabs -> education/experience */}
         <div className="qualification__tabs">
           <div
             className="qualification__button button--flex"
@@ -29,7 +29,9 @@ const Qualifications = () => {
 
         {/* sections */}
         <div className="qualification__sections">
-          {/* part-1 */}
+
+
+          {/* education */}
           <div
             className={
               qualificationIndex === 0
@@ -40,13 +42,13 @@ const Qualifications = () => {
             {/* item-1 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
+                <h3 className="qualification__title">CS Engineering</h3>
                 <span className="qualification__subtitle">
                   KGiSL Institute of Technology
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt calender-icon"></i>
-                  2021 - Present
+                  2017 - 2021
                 </div>
               </div>
               <div>
@@ -64,56 +66,36 @@ const Qualifications = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">Higher Secondary</h3>
                 <span className="qualification__subtitle">
-                  KGiSL Institute of Technology
+                  Karapettai HSS
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt calender-icon"></i>
-                  2021 - Present
+                  2015 - 2017
                 </div>
               </div>
             </div>
             {/* item-1 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
+                <h3 className="qualification__title">SSLC</h3>
                 <span className="qualification__subtitle">
-                  KGiSL Institute of Technology
+                  Karapettai NHSS
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt calender-icon"></i>
-                  2021 - Present
+                  2013 - 2015
                 </div>
               </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            {/* item-2 */}
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  KGiSL Institute of Technology
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt calender-icon"></i>
-                  2021 - Present
-                </div>
               </div>
             </div>
           </div>
 
-          {/* part-2 */}
+          {/* Experience */}
           <div
             className={
               qualificationIndex === 1
@@ -124,13 +106,13 @@ const Qualifications = () => {
             {/* item-1 */}
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design2</h3>
+                <h3 className="qualification__title">Associate Analyst</h3>
                 <span className="qualification__subtitle">
-                  KGiSL Institute of Technology
+                  Ugam Solutions
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt calender-icon"></i>
-                  2021 - Present
+                  2021 - 6 months
                 </div>
               </div>
               <div>
@@ -139,43 +121,9 @@ const Qualifications = () => {
               </div>
             </div>
 
-            {/* item-2 */}
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">
-                  KGiSL Institute of Technology
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt calender-icon"></i>
-                  2021 - Present
-                </div>
-              </div>
-            </div>
-            {/* item-1 */}
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">
-                  KGiSL Institute of Technology
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt calender-icon"></i>
-                  2021 - Present
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
           </div>
+
+
         </div>
       </div>
     </section>

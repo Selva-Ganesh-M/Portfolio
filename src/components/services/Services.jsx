@@ -16,7 +16,7 @@ const Services = () => {
           <div>
             <i className="uil uil-web-grid services__icon"></i>
             <h3 className="services__title">
-              Product <br /> Designer
+              Frontend <br /> Developer
             </h3>
           </div>
 
@@ -27,41 +27,29 @@ const Services = () => {
 
           {/* modal */}
           <div
-            className={`services__modal ${
-              currentModal === 1 ? `active__modal` : ``
-            }`}
+            className={`services__modal ${currentModal === 1 ? `active__modal` : ``
+              }`}
           >
             <div className="services__modal-content">
               <i
                 className="uil uil-times services__modal-close"
                 onClick={() => setCurrentModal(0)}
               ></i>
-              <h3 className="services__modal-title">Product Designer</h3>
-              Service with more than 3 years of experience.Providing quality
-              work to clients and companies.
+              <h3 className="services__modal-title">Frontend Developer</h3>
+              Develop simple friendly user interfaces.
               <p className="services__modal-description"></p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Site Development.</p>
+                  <p className="services__modal-info">I develop UI/UX.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create apis.</p>
+                  <p className="services__modal-info">I develop api interactions.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop servers.</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I develop apis interactions.
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop databases.</p>
+                  <p className="services__modal-info">I deploy sites.</p>
                 </li>
               </ul>
             </div>
@@ -73,7 +61,7 @@ const Services = () => {
           <div>
             <i className="uil uil-arrow services__icon"></i>
             <h3 className="services__title">
-              Ui/Ux <br /> Desinger
+              Backend <br /> Developer
             </h3>
           </div>
 
@@ -87,42 +75,27 @@ const Services = () => {
 
           {/* modal */}
           <div
-            className={`services__modal ${
-              currentModal === 2 ? `active__modal` : ``
-            }`}
+            className={`services__modal ${currentModal === 2 ? `active__modal` : ``
+              }`}
           >
             <div className="services__modal-content">
               <i
                 className="uil uil-times services__modal-close"
                 onClick={() => setCurrentModal(0)}
               ></i>
-              <h3 className="services__modal-title">Ui/Ux Designer</h3>
-              Service with more than 3 years of experience.Providing quality
-              work to clients and companies.
+              <h3 className="services__modal-title">Backend Developer</h3>
+              I create servers with nodeJs and expressJs, which handle various and routes and handles api interactions.
               <p className="services__modal-description"></p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Site Development.</p>
+                  <p className="services__modal-info">Server development.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create apis.</p>
+                  <p className="services__modal-info">I develop apis interactions to client and database.</p>
                 </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop servers.</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I develop apis interactions.
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop databases.</p>
-                </li>
+
               </ul>
             </div>
           </div>
@@ -133,7 +106,7 @@ const Services = () => {
           <div>
             <i className="uil uil-edit services__icon"></i>
             <h3 className="services__title">
-              Visual <br /> Designer
+              Database <br /> Developer
             </h3>
           </div>
 
@@ -147,41 +120,29 @@ const Services = () => {
 
           {/* modal */}
           <div
-            className={`services__modal ${
-              currentModal === 3 ? `active__modal` : ``
-            }`}
+            className={`services__modal ${currentModal === 3 ? `active__modal` : ``
+              }`}
           >
             <div className="services__modal-content">
               <i
                 className="uil uil-times services__modal-close"
                 onClick={() => setCurrentModal(0)}
               ></i>
-              <h3 className="services__modal-title">Visual Designer</h3>
-              Service with more than 3 years of experience.Providing quality
-              work to clients and companies.
+              <h3 className="services__modal-title">Database Developer</h3>
+              Develop robust Databases which holds multiple data models.
               <p className="services__modal-description"></p>
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web Site Development.</p>
+                  <p className="services__modal-info">I develop data models.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I create apis.</p>
+                  <p className="services__modal-info">I perform data validation.</p>
                 </li>
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop servers.</p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I develop apis interactions.
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">I develop databases.</p>
+                  <p className="services__modal-info">I develop database interactions with the server.</p>
                 </li>
               </ul>
             </div>

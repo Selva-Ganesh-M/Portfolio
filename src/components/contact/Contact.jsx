@@ -13,8 +13,10 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Talk to me</h3>
 
+
+          {/* contact links */}
           <div className="contact__info">
-            {/* item */}
+            {/* email */}
             <div className="contact__card">
               <i className="bx bx-mail-send contact__card-icon"></i>
               <h3 className="contact__card-title">Email</h3>
@@ -24,13 +26,13 @@ const Contact = () => {
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
             </div>
-            {/* item */}
+            {/* whatsapp */}
             <div className="contact__card">
               <i className="bx bxl-whatsapp contact__card-icon"></i>
               <h3 className="contact__card-title">Whatsapp</h3>
-              <span className="contact__card-data">90033-58985</span>
+              <span className="contact__card-data">90XXX-58XXX</span>
               <a
-                href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!"
+                href="https://api.whatsapp.com/send?phone=9003358985&text=Hello, more information!"
                 className="contact__button"
               >
                 write me{" "}
@@ -41,8 +43,8 @@ const Contact = () => {
             <div className="contact__card">
               <i className="bx bxl-linkedin contact__card-icon"></i>
               <h3 className="contact__card-title">LinkedIn</h3>
-              <span className="contact__card-data">user@linkedin.com</span>
-              <a href="" className="contact__button">
+              <span className="contact__card-data">selvaganeshm@linkedin.com</span>
+              <a href="https://www.linkedin.com/in/selva-ganesh-m-08a015266/" className="contact__button">
                 write me{" "}
                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
               </a>
@@ -50,6 +52,7 @@ const Contact = () => {
           </div>
         </div>
 
+        {/* form */}
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
           <form
