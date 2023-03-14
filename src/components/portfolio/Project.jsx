@@ -5,7 +5,7 @@ const Project = ({ item }) => {
         <div className="work__card" key={item.id} >
 
             {/* project image */}
-            <a href={item.link}>
+            <a href={item.link} target={"_blank"}>
                 <img src={item.image} alt="project-thumbnail" className='work__img' />
             </a>
 
