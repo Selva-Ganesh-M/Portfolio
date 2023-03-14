@@ -1,6 +1,3 @@
-import Work1 from "../../assets/work1.jpg"
-import Work2 from "../../assets/work1.jpg"
-import Work3 from "../../assets/work1.jpg"
 import GOST_Blog from "../../assets/ProjectImages/GOST_Blog.png"
 import Evogym from "../../assets/ProjectImages/Evogym.png"
 import Fiver from "../../assets/ProjectImages/Fiver.png"
