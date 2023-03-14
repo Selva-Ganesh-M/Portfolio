@@ -1,10 +1,20 @@
 import GOST_Blog from "../../assets/projectImages/GOST_Blog.png"
 import Evogym from "../../assets/projectImages/Evogym.png"
 import Fiver from "../../assets/projectImages/Fiver.png"
+import QuantumGym from "../../assets/projectImages/QuantumGym.png"
 
 export const projectsData = [
     {
         id: 1,
+        image: QuantumGym,
+        title: "Quantum Gym",
+        category: "MERN",
+        link: 'https://quantum-gym.netlify.app',
+        clientLink: "https://github.com/Selva-Ganesh-M/F_TS_Quantum_Gym",
+        serverLink: "https://github.com/Selva-Ganesh-M/B_TS_Quantum_Gym"
+    },
+    {
+        id: 2,
         image: GOST_Blog,
         title: "GOST Blog",
         category: "MERN",
@@ -13,7 +23,7 @@ export const projectsData = [
         serverLink: "https://github.com/Selva-Ganesh-M/Blog_Server"
     },
     {
-        id: 2,
+        id: 3,
         image: Evogym,
         title: "Evo Gym",
         category: "static",
@@ -21,7 +31,7 @@ export const projectsData = [
         clientLink: "https://github.com/Selva-Ganesh-M/Re_TS_Fr_Tw_Gym_App"
     },
     {
-        id: 3,
+        id: 4,
         image: Fiver,
         title: "Fiverr",
         category: "static",
