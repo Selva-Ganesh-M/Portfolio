@@ -2,6 +2,8 @@ import GOST_Blog from "../../assets/projectImages/GOST_Blog.png"
 import Evogym from "../../assets/projectImages/Evogym.png"
 import Fiver from "../../assets/projectImages/Fiver.png"
 import QuantumGym from "../../assets/projectImages/QuantumGym.png"
+import CinemaRating from "../../assets/projectImages/CinemaRating.png"
+import ChatApp from "../../assets/projectImages/ChatApp.png"
 
 export const projectsData = [
     {
@@ -15,6 +17,14 @@ export const projectsData = [
     },
     {
         id: 2,
+        image: ChatApp,
+        title: "Chat App",
+        category: "static",
+        link: 'https://chat-app-client-tau.vercel.app/app',
+        clientLink: "https://github.com/Selva-Ganesh-M/Chat_App_Client",
+    },
+    {
+        id: 3,
         image: GOST_Blog,
         title: "GOST Blog",
         category: "MERN",
@@ -23,7 +33,7 @@ export const projectsData = [
         serverLink: "https://github.com/Selva-Ganesh-M/Blog_Server"
     },
     {
-        id: 3,
+        id: 4,
         image: Evogym,
         title: "Evo Gym",
         category: "static",
@@ -31,12 +41,20 @@ export const projectsData = [
         clientLink: "https://github.com/Selva-Ganesh-M/Re_TS_Fr_Tw_Gym_App"
     },
     {
-        id: 4,
+        id: 5,
         image: Fiver,
         title: "Fiverr",
         category: "static",
         link: "https://fiverapp.netlify.app/",
         clientLink: "https://github.com/Selva-Ganesh-M/fiverr_client"
+    },
+    {
+        id: 6,
+        image: CinemaRating,
+        title: "Cinema Ratings",
+        category: "dev",
+        link: "https://rtk-movie-rating-app.vercel.app/",
+        clientLink: "https://github.com/Selva-Ganesh-M/rtk-movie-rating-app"
     },
     // {
     //     id: 4,

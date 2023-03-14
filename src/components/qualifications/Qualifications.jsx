@@ -68,7 +68,7 @@ const Qualifications = () => {
               <div>
                 <h3 className="qualification__title">Higher Secondary</h3>
                 <span className="qualification__subtitle">
-                  Karapettai HSS
+                  Karapettai NHSS
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt calender-icon"></i>
@@ -76,7 +76,7 @@ const Qualifications = () => {
                 </div>
               </div>
             </div>
-            {/* item-1 */}
+            {/* item-3 */}
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">SSLC</h3>
