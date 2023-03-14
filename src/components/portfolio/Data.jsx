@@ -1,6 +1,6 @@
-import GOST_Blog from "../../assets/ProjectImages/GOST_Blog.png"
-import Evogym from "../../assets/ProjectImages/Evogym.png"
-import Fiver from "../../assets/ProjectImages/Fiver.png"
+import GOST_Blog from "../../assets/projectImages/GOST_Blog.png"
+import Evogym from "../../assets/projectImages/Evogym.png"
+import Fiver from "../../assets/projectImages/Fiver.png"
 
 export const projectsData = [
     {
