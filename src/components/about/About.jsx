@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import SelvaImg from "../../assets/profileImg/SelvaImg.jpg";
-// import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Selva_Ganesh_M _resume.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -19,12 +19,12 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            MERN Full Stack Developer, I create web pages with UI / UX, apis interactions,
+            MERN Full Stack Developer, I create web pages with UI / UX, api interactions,
             servers and databases.
           </p>
 
-          {/* <a href={CV} download="" className="button button--flex"> */}
-          <a download="" className="button button--flex">
+          <a href={CV} download="" className="button button--flex">
+            {/* <a download="" className="button button--flex"> */}
             Download CV
             <svg
               className="button__icon"
