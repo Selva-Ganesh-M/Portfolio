@@ -56,7 +56,7 @@ const Contact = () => {
         <div className="contact__content">
           <h3 className="contact__title">Write me your project</h3>
           <form
-            action="https://formsubmit.co/selvadev2k@gmail.com"
+            action="https://formsubmit.co/428ed2787f23228ca2d4c40fb8c10a61"
             method="POST"
             className="contact__form"
           >
