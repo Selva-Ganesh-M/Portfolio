@@ -24,26 +24,26 @@ const Footer = () => {
         {/* socials */}
         <div className="footer__social">
           <a
-            href="https://github.com/"
+            href="https://github.com/Selva-Ganesh-M"
             className="footer__social-link"
             target={"_blank"}
           >
             <i className="uil uil-github-alt"></i>
           </a>
           <a
-            href="https://linkedin.com/"
+            href="https://www.linkedin.com/in/selva-ganesh-m-08a015266/"
             className="footer__social-link"
             target={"_blank"}
           >
             <i className="uil uil-linkedin"></i>
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/"
             className="footer__social-link"
             target={"_blank"}
           >
             <i className="bx bxl-instagram"></i>
-          </a>
+          </a> */}
         </div>
 
         <span className="footer__copy">
