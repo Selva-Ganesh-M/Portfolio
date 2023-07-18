@@ -2,7 +2,7 @@ import GOST_Blog from "../../assets/projectImages/GOST_Blog.png"
 import Evogym from "../../assets/projectImages/Evogym.png"
 import Fiver from "../../assets/projectImages/Fiver.png"
 import QuantumGym from "../../assets/projectImages/QuantumGym.png"
-import CinemaRating from "../../assets/projectImages/CinemaRating.png"
+import AndFlix from "../../assets/projectImages/&FLIX.png"
 import ChatApp from "../../assets/projectImages/ChatApp.png"
 
 export const projectsData = [
@@ -50,24 +50,12 @@ export const projectsData = [
     },
     {
         id: 6,
-        image: CinemaRating,
-        title: "Cinema Ratings",
+        image: AndFlix,
+        title: "&FLIX",
         category: "dev",
-        link: "https://rtk-movie-rating-app.vercel.app/",
-        clientLink: "https://github.com/Selva-Ganesh-M/rtk-movie-rating-app"
+        link: "https://movie-detailsapp.netlify.app/",
+        clientLink: "https://github.com/Selva-Ganesh-M/movie_details_app"
     },
-    // {
-    //     id: 4,
-    //     image: Work2,
-    //     title: "App movil",
-    //     category: "app",
-    // },
-    // {
-    //     id: 5,
-    //     image: Work3,
-    //     title: "Brand design",
-    //     category: "design",
-    // },
 ];
 
 export const projectsNav = [
