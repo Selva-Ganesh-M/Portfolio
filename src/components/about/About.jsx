@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import SelvaImg from "../../assets/profileImg/SelvaImg.jpg";
-import CV from "../../assets/Selva_Ganesh_M _resume.pdf";
+import CV from "../../assets/Selva_Ganesh_M_resume.pdf";
 import Info from "./Info";
 
 const About = () => {
