@@ -2,7 +2,7 @@ import GOST_Blog from "../../assets/projectImages/GOST_Blog.png"
 import Evogym from "../../assets/projectImages/Evogym.png"
 import Fiver from "../../assets/projectImages/Fiver.png"
 import QuantumGym from "../../assets/projectImages/QuantumGym.png"
-import AndFlix from "../../assets/projectImages/&FLIX.png"
+import AndFlix from "../../assets/projectImages/andFLIX.png"
 import ChatApp from "../../assets/projectImages/ChatApp.png"
 
 export const projectsData = [
